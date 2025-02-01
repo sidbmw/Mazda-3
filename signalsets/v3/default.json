@@ -2,7 +2,7 @@
   "commands": [
     { "hdr": "720", "cmd": {"22": "2A05"}, "freq": 15,
       "signals": [
-        {"id": "M3_TP_1", "path": "Tires", "fmt": {"bix": 24, "len": 8, "mul": 0.017094, "max": 255, "unit": "scalar"}, "name": "Tire 4 pressure", "suggestedMetric": "rearRightTirePressure"}
+        {"id": "M3_TP_1", "path": "Tires", "fmt": {"len": 8, "max": 255, "unit": "scalar"}, "name": "Tire 1 pressure"}
       ]},
     { "hdr": "751", "cmd": {"22": "c902"}, "freq": 15,
       "signals": [
