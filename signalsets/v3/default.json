@@ -1,10 +1,10 @@
 {
   "commands": [
-    { "hdr": "720", "cmd": {"22": "2A05"}, "freq": 15,
+    { "hdr": "720", "cmd": {"22": "C901"}, "freq": 15,
       "signals": [
         {"id": "M3_TP_1", "path": "Tires", "fmt": {"len": 8, "max": 255, "unit": "scalar"}, "name": "Tire 1 pressure"}
       ]},
-    { "hdr": "751", "cmd": {"22": "c902"}, "freq": 15,
+    { "hdr": "720", "cmd": {"22": "c902"}, "freq": 15,
       "signals": [
         {"id": "M3_TT_1", "path": "Tires", "fmt": {"bix": 0,  "len": 8, "add": -50, "max": 93, "unit": "celsius"}, "name": "Tire 1 temperature"},
         {"id": "M3_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "add": -50, "max": 93, "unit": "celsius"}, "name": "Tire 2 temperature"},
