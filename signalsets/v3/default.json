@@ -1,6 +1,6 @@
 {
   "commands": [
-    { "hdr": "720", "cmd": {"22": "A205"}, "freq": 15,
+    { "hdr": "720", "cmd": {"22": "2A05"}, "freq": 15,
       "signals": [
         {"id": "M3_TP_1", "path": "Tires", "fmt": {"len": 8, "mul": 0.017094, "max": 50, "unit": "psi"}, "name": "Tire 1 pressure"}
       ]},
